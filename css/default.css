@@ -160,39 +160,6 @@ article {
   container-type: inline-size;
 }
 
-/* default button styling */
-
-.btn {
-  font-weight: 700;
-  min-width: 175px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  text-transform: uppercase;
-  letter-spacing: 1.63px;
-  transition: 0.4s;
-  height: 65px;
-  padding-left: 30px;
-  padding-right: 30px;
-  box-shadow: 0 32px 54px rgba(3, 3, 3, 0.12);
-}
-
-.btn:not(:disabled):not(.disabled),
-button:not(:disabled):not(.disabled) {
-  cursor: pointer;
-}
-
-.btn-primary,
-.btn-primary a {
-  color: var(--color-white);
-  background-color: var(--btn-primary-background);
-  border-color: var(--btn-primary-background);
-}
-
-.round-pill {
-  border-radius: 50rem;
-}
-
 /* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
@@ -206,13 +173,4 @@ button:not(:disabled):not(.disabled) {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: var(--color-attribute);
 }
