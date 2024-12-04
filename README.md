@@ -1,3 +1,3 @@
 # Boilerplate HTML
 
-This is my default boilerplate for HTML / CSS / basic JavaScript projects.
+This is my capstone for Vets Who Code application.
